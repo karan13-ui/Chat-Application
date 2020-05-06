@@ -1,0 +1,306 @@
+.root {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+  
+}
+
+.header {
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #1ebea5;
+    /* box-sizing: border-box; */
+    padding: 25px;
+
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+  
+ 
+}
+
+.viewLoading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logout {
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    cursor: pointer;
+    color:black;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 5px 5px #808888;
+}
+
+.ProfilePicture {
+    width: 45px;
+    height: 45px;
+    background-image: url(../../images/nopic.png);
+    left:10px;
+   position: absolute;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+/* Dialog confirm */
+
+.viewCoverScreen {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewWrapTextDialogConfirmLogout {
+    width: 400px;
+    height: 50px;
+    background-color: #d86c5a;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.titleDialogConfirmLogout {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.viewWrapButtonDialogConfirmLogout {
+    flex-direction: row;
+    height: 100px;
+    width: 300px;
+    min-width: 400px;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btnYes {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: #c5787b;
+    border: 0px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.notificationpragraph{
+    right:0;
+    bottom:0;
+}
+.newmessages{
+    font-size: 8px
+    ;
+}
+
+.btnNo {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: #94c043;
+    border: 0px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* List user */
+
+.viewListUser {
+    overflow-y: scroll;
+    max-height: 100vh;
+    min-height: 90vh;
+    height: auto;
+    width: 50vh;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+   
+}
+
+.viewListUser::-webkit-scrollbar-track {
+    padding: 2px 0;
+    background-color: #ffffff;
+}
+
+.viewListUser::-webkit-scrollbar {
+    width: 6px;
+}
+
+.viewListUser::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #9999;
+}
+
+.viewWrapItem {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    max-width:44vh;
+    min-width:44vh;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    /* border-left: 15px solid #1ebea5; */
+    /* margin-bottom: 3px; */
+    border-bottom: 1px solid rgb(220,220,220);
+  
+}
+
+.viewWrapItemNotification {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #1de9b6;
+    max-width:44vh;
+    min-width:44vh;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    /* border-left: 15px solid #1ebea5; */
+    /* margin-bottom: 3px; */
+    border-bottom: 1px solid rgb(220,220,220);
+  
+}
+
+.viewWrapItemFocused {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    max-width:44vh;
+    min-width:44vh;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.viewAvatarItem {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-image: url(../../images/nopic.png)
+
+}
+
+.viewWrapContentItem {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    margin-left: 15px;
+    color: #203152;
+    word-wrap: break-word;
+}
+
+.textItem {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 240px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.viewBoard {
+    display: flex;
+    flex: 1;
+    max-height: 90vh;
+}
+
+/* --------------------------------SEARCH BUTTON DESIGN-------------------------------- */
+    .rootsearchbar{
+    padding:10px;
+    width: 100%; 
+        margin-bottom: 10px; 
+    background-color: #f7f7f7;
+    }
+
+
+    .input-icons i { 
+        position: absolute; 
+    }
+    
+    .input-icons { 
+        width: 100%; 
+    
+    } 
+    
+    .profileviewleftside{
+    padding:10px;
+    width: 100%; 
+    background-color:  #ededed;
+    height: 64px;
+    position: relative;
+    margin-top: 0;
+}
+.input-container {
+    /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    
+  }
+  
+  .icon {
+    padding: 10px;
+    background: rgb(148, 167, 185);
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.5;
+  }
+  
+  .input-field {
+    width: 100%;
+   
+    border-radius: 10px;
+    
+    /* margin-right: 85%; */
+    border: none ! important;
+    box-shadow: none ! important;
+    outline: none ! important;
+    
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  

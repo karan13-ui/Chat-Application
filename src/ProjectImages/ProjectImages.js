@@ -1,0 +1,25 @@
+const Images={
+   karan:require('../images/karan.jpeg'),
+   nopic:require('../images/nopic.png'),
+   choosefile:require('../images/ic_input_file.jpg'),
+   lego1:require('../images/lego1.jpg'),
+   lego2:require('../images/lego2.jpg'),
+   lego3:require('../images/lego3.jpg'),
+   lego4:require('../images/lego4.png'),
+   lego5:require('../images/lego5.jpg'),
+   lego6:require('../images/lego6.jpg'),
+   lego7:require('../images/lego7.jpg'),
+   mim1:require('../images/mim1.png'),
+   mim2:require('../images/mim2.png'),
+   mim3:require('../images/mim3.png'),
+   mim4:require('../images/mim4.png'),
+   mim5:require('../images/mim5.png'),
+   mim6:require('../images/mim6.png'),
+   mim7:require('../images/mim7.png'),
+   mim8:require('../images/mim8.png'),
+   input_file:require('../images/ic_photo.jpg'),
+   sticker:require('../images/ic_sticker.jpg'),
+   send:require('../images/ic_send.png'),
+   wave:require('../images/wave.png')
+}
+export default Images
