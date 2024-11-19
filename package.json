@@ -9,7 +9,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
-    "firebase": "^7.14.2",
+    "firebase": "^10.9.0",
     "moment": "^2.25.2",
     "moment-timezone": "^0.5.28",
     "react": "^16.13.1",
